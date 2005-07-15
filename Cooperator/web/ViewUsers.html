@@ -1,0 +1,150 @@
+<html>
+<head>
+
+<title>
+User auflisten
+</title>
+
+<link rel="stylesheet" href="/Cooperator/web/style.css" type="text/css">
+</head>
+<body bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td align="center">
+		<table width="97%" border="0" cellspacing="0" cellpadding="0"
+		<tr>
+			<td align="center">
+				<fieldset class="mainframe"><legend>Cooperator v0.1</legend>
+				<div style="text-align:right">
+					<a href="/Cooperator/web/Logout.html">Logout</a>&nbsp;&nbsp;&nbsp;
+					<a href="/Cooperator/web/Profile.html">Profil</a>&nbsp;&nbsp;&nbsp;
+					<a href="/Cooperator/web/ViewUsers.html">User</a>&nbsp;&nbsp;&nbsp;
+					<a href="/Cooperator/web/ViewEvents.html">Veranstaltungen</a>&nbsp;&nbsp;&nbsp;
+					<a href="/Cooperator/web/Impressum.html">Impressum</a>
+
+				<br />
+				<br />
+				<br />
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+	<td >
+
+
+						<fieldset class="mainframe"><legend>User</legend>
+						<br>
+						<table border="0" cellpadding="0" cellspacing="0" width="97%">
+						<tbody>
+						<tr>
+							<td><br /><br />
+								Der User wurde gel&ouml;scht.
+								<br /><br />
+								list: <SELECT >
+<!-- Wir wollen ja die möglichen Event Typen aus einer Datei lesen, also wird dieser dropdown dynamisch generiert.
+	 Er muß ja sowieso dynamisch sein. Schon wegen der Rollenverteilung. -->
+									  <option value="1" class="select_version">eingeloggte User</option>
+									  <option value="2" class="select_version">ausgeloggte User</option>
+									  <option value="5" class="select_version">alle User</option>
+							     </SELECT> </td>
+						</tr>
+
+<!-- Hier kommt die dynamisch erzeugte Liste hin. Das hier ist jetzt nur ne design-info -->
+<!-- Voran stehen die Vorlesungen. Eingerückt sind die dazugehörigen Übungen und Prüfungen -->
+
+					 	<tr>
+							<td align="center">
+								<br>
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody><tr bgcolor="#cad5e3">
+								<td class="listinghead">Login</td>
+								<td class="listinghead">Name</td>
+								<td class="listinghead">Vorname</td>
+								<td class="listinghead">E-Mail</td>
+								<td class="listinghead"></td>
+						</tr>
+
+						<tr bgcolor="#ebf2fa">
+
+							<td><a href="/Cooperator/web/Profile.html">%User.Login</a></td>
+							<td> %User.FirstName</td>
+							<td> %User.Surname</td>
+							<td> %User.EmailAddress</td>
+							<td><input type="submit" value="kill" class="button_100"></td>
+
+						</tr>
+
+						<tr bgcolor="#ebf2fa">
+
+							<td><a href="/Cooperator/web/Profile.html">%User.Login</a></td>
+							<td> %User.FirstName</td>
+							<td> %User.Surname</td>
+							<td> %User.EmailAddress</td>
+							<td><input type="submit" value="kill" class="button_100"></td>
+
+						</tr>
+
+						<tr bgcolor="#ebf2fa">
+
+							<td><a href="/Cooperator/web/Profile.html">%User.Login</a></td>
+							<td> %User.FirstName</td>
+							<td> %User.Surname</td>
+							<td> %User.EmailAddress</td>
+							<td><input type="submit" value="kill" class="button_100"></td>
+
+						</tr>
+
+
+						</tbody></table>
+						<br />
+						<br />
+						<br />
+						<input type="submit" value="Neuen User anlegen" class="button_100">
+						<a href="/Cooperator/web/Profile.html">[klick]</a>
+						<br />
+						</td>
+						</tr>
+
+
+						</tbody></table>
+						</fieldset>
+					</td>
+				</tr>
+				</table>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				&nbsp;
+				</fieldset>
+			</td>
+		</tr>
+
+	</td>
+</tr>
+</table>
+</body>
+</html>

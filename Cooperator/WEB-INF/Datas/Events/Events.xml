@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event max_sub="-1" sub_start="0" sub_end="0" unsub_end="0" parent="-1" type="0" group="0" name="Universität Leipzig" id="0" lecturer="-" start="0" info="Die Universität zu Leipzig, früher die Karl-Marx-Universität." />
+  <event max_sub="-1" sub_start="0" sub_end="0" unsub_end="0" parent="-1" type="0" group="1" name="Freie Universität Berlin" id="1" lecturer="-" start="0" info="Die Freie Universität zu Berlin. " />
+  <event max_sub="-1" sub_start="0" sub_end="0" unsub_end="0" parent="0" type="1" group="2" name="Fakultät für Informatik" id="2" lecturer="-" start="0" info="Die Fakultät für Informatik liegt direkt am Augustusplatz mit Blick auf den Springbrunnen. WLAN vorhanden." />
+  <event max_sub="-1" sub_start="-1" sub_end="-1" unsub_end="-1" parent="0" type="1" group="3" name="Fakultät für Mathematik" id="3" lecturer="-" start="0" info="Die Fakultät für Informatik liegt direkt am Augustusplatz mit Blick auf den Springbrunnen. WLAN vorhanden." />
+  <event max_sub="-1" sub_start="-1" sub_end="-1" unsub_end="-1" parent="2" type="2" group="4" name="Abteilung Technische Informatik" id="4" lecturer="-" start="1118648340000" info="Hier dreht sich alles um Hardware und sowohl Praxis aus auch Theorie dazu. Treffen sie brillante Exoten wie Herrn Dr. Liekse oder Herrn Dr. Middendorf. ;-)" />
+  <event max_sub="-1" sub_start="0" sub_end="0" unsub_end="0" parent="2" type="2" group="5" name="Abteilung Angewandte Informatik" id="5" lecturer="-" start="0" info="Hier lernen sie praktische Anwendung von Programmiersprachen und Prozesse der Software-Erstellung" />
+  <event max_sub="-1" sub_start="0" sub_end="0" unsub_end="0" parent="5" type="3" group="6" name="ADS I - WS 2004/2005" id="6" lecturer="der" start="1118925840000" info="Algorithmen und Datenstrukturen I bietet erste Einblicke in Programmierkonzepte, -paradigmen und Daten-Grundkonzepte und Datenstrukturen.">
+    <times time="15:15" day="Montag" rhythm="2" location="HS 13" />
+    <times time="15:15" day="Montag" rhythm="3" location="HS 19" />
+    <times time="13:15" day="Mittwoch" rhythm="1" location="HS 19" />
+  </event>
+  <event max_sub="-1" sub_start="-1" sub_end="-1" unsub_end="-1" parent="5" type="3" group="7" name="ADS II - SS 2005" id="7" lecturer="der" start="1118925840000" info="Algorithmen und Datenstrukturen II ist die weiterführende Veranstaltung zu Algorithmen und Datenstrukturen I.">
+    <times time="13:15" day="Montag" rhythm="3" location="HS 19" />
+    <times time="13:15" day="Montag" rhythm="3" location="HS 13" />
+    <times time="17:15" day="Donnerstag" rhythm="1" location="HS 19" />
+  </event>
+  <event max_sub="10" sub_start="1116763200000" sub_end="1121508000000" unsub_end="1122112800000" parent="6" type="4" group="8" name="ADS I Seminar Gruppe 1 - WS 2004/2005" id="8" lecturer="der" start="1118925840000" info="Seminar zu ADS I">
+    <times time="13:15" day="Montag" rhythm="2" location="SG 3-09" />
+    <subs user="sille" />
+    <subs user="peter" />
+    <subs user="micha" />
+    <subs user="carsten" />
+    <subs user="mirko" />
+  </event>
+  <event max_sub="3" sub_start="1116763200000" sub_end="1121508000000" unsub_end="1122112800000" parent="6" type="4" group="8" name="ADS I Seminar Gruppe 2 - WS 2004/2005" id="9" lecturer="der" start="1118925840000" info="Seminar zu ADS I">
+    <times time="13:15" day="Montag" rhythm="2" location="SG 3-09" />
+    <subs user="sven" />
+    <subs user="ibrahim" />
+    <subs user="Nobody" />
+  </event>
+  <event max_sub="20" sub_start="1114761600000" sub_end="1122184800000" unsub_end="1122876000000" parent="5" type="5" group="9" name="Java Programmier-Praktikum - SS 2005" id="10" lecturer="-" start="1118925840000" info="Das Java-Programmierpraktikum ist richtet sich an alle Informatik-Studenten des Grundstudiums und soll die objekt-orientierte Programmierung vermitteln.">
+    <times time="13:00-20:00" day="Montag" rhythm="1" location="HG Solaris-Pool" />
+    <subs user="Tester" />
+  </event>
+  <event max_sub="45" sub_start="1124524800000" sub_end="1125388800000" unsub_end="1125907200000" parent="1" group="-1" type="9" name="Schachmethodik" id="12" lecturer="-" start="1126323900000" info="Wer Interesse hat sich etwas in Schach zu bilden ist hier herzlich willkommen.&#xD;&#xA;">
+    <times time="05:45" day="Samstag" rhythm="1" location="Colosseum" />
+    <subs user="Nobody" />
+  </event>
+  <event max_sub="-1" sub_start="-1" sub_end="-1" unsub_end="-1" parent="2" group="10" type="2" name="Betriebliche Informationssysteme" id="14" lecturer="-" start="1121089200000" info="Die Lehrgebiete umfassen betriebliche Informationssysteme, E-Business, Dienstleistungsinformatik sowie Service Engineering und Service Management." />
+  <event max_sub="-1" sub_start="-1" sub_end="-1" unsub_end="-1" parent="14" group="11" type="3" name="Softwaretechnik" id="15" lecturer="riechert" start="1128895200000" info="" />
+  <event max_sub="100" sub_start="1120168800000" sub_end="1129503600000" unsub_end="1130108400000" parent="15" group="12" type="4" name="Übung Softwaretechnik" id="16" lecturer="riechert" start="1129500000000" info="Übungsveranstaltungen zur Vorlesung Softwaretechnik">
+    <times time="13:15" day="Dienstag" rhythm="3" location="3-07" />
+    <times time="9:15" day="Mittwoch" rhythm="3" location="3-09" />
+    <times time="11:15" day="Mittwoch" rhythm="3" location="3-09" />
+    <times time="9:15" day="Donnerstag" rhythm="3" location="3-05" />
+    <subs user="Tester" />
+    <subs user="zimmermann" />
+  </event>
+  <event max_sub="-1" sub_start="1136070000000" sub_end="1138748400000" unsub_end="1139094000000" parent="15" group="13" type="6" name="Klausur Softwartechnik" id="17" lecturer="riechert" start="1139439600000" info="" />
+</events>
+

@@ -1,0 +1,1 @@
+Hier kommen alle aus den Templates erstellten Struts-JSP-Dateien rein.

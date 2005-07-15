@@ -1,0 +1,363 @@
+<html>
+<head>
+
+<title>
+Info zur Veranstaltung
+</title>
+
+<link rel="stylesheet" href="/web/templates/style.css" type="text/css">
+</head>
+<body bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td align="center">
+		<table width="97%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="center">
+				<fieldset class="mainframe"><legend>Cooperator v0.1</legend>
+				<div style="text-align:right">
+
+					<a href="/web/templates/Logout.html">Logout</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/Profile.html">Profil</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/ViewUsers.html">User</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/ViewEvents.html">Veranstaltungen</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/Impressum.html">Impressum</a>
+
+				<br />
+<!--	Platz für Title eventuell???					-->
+				<br />
+				<br />
+				<br />
+<!--	HEAD-END, BODY-START							-->
+
+				<table align="center" width="97%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+
+<!-- Veranstaltungs-Info + Einschreiben + Edit ----------------------------------------------------------------------- -->
+
+					<td align="center"><fieldset class="mainframe"><legend>%Event.EventName</legend>
+						<table width="97%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td colspan="2">
+								<strong>Informationen zur Veranstaltung:</strong><br /><br /><br />
+								%Event.sEventInfo<br /><br /><br />
+						<tr>
+							<td width="200">%(Dozent / &Uuml;bungsgruppenleiter / Pr&uuml;fungsleiter):</td>
+							<td>%Event.sLecturer &nbsp&nbsp <a href="mailto:User.sEmaiAddress">E-mail</a></td>
+						</tr>
+						<tr><td><br/ ><br /></td></tr>
+						<tr>
+							<td width="200">Die Veranstaltung findet statt am:</td>
+							<td>%(%Event.sEventDays / %Event.sWeekDay in der %Event.sRhythm Woche)</td>
+						</tr>
+						<tr><td><br/ ></td></tr>
+						<tr>
+							<td width="200">Zeit:</td>
+							<td>%Event.sTime</td>
+						</tr>
+						<tr><td><br/ ></td></tr>
+						<tr>
+						<!-- In Event fehlt noch das Attribut sLocation!!! -->
+							<td width="200">Ort:</td>
+							<td>%Event.sLocation</td>
+						</tr>
+						<tr><td><br/ ><br /></td></tr>
+						<tr>
+							<td width="200">Veranstaltungsbeginn ist am:</td>
+							<td>%Event.sEventStart</td>
+						</tr>
+						<tr>
+							<td colspan="2"><br /><br />
+								<hr width="100%">
+								<br />
+								<strong>Informationen zur %(Anmeldung / Einschreibung):</strong><br /><br /><br />
+							</td>
+						</tr>
+						<tr>
+							<td width="200">%(Anmeldungsbeginn / Einschreibungsbeginn):</td>
+							<td>%Event.sSubscriptionStart</td>
+						</tr>
+						<tr><td><br/ ></td></tr>
+						<tr>
+							<td width="200">%(Anmeldungsende / Einschreibungsende):</td>
+							<td>%Event.sSubscriptionEnd</td>
+						</tr>
+						<tr><td><br/ ><br /></td></tr>
+						<tr>
+							<td width="200">Belegung:</td>
+							<td>%Event.iSubscribed / %Event.iMaxSubscribtions</td>
+						</tr>
+						<tr><td><br/ ><br /></td></tr>
+						<tr>
+							<td colspan="2" align="center">%Sie sind bereits eingetragen.<br />
+							%<strong>Sie sind nicht eingetragen.</strong><br />
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+								<br />
+								%<input type="submit" value="einschreiben" class="button_100">
+								%<input type="submit" value="austragen" class="button_100">
+								<br /><br />
+								%<strong>Einschreibung wurde abgebrochen.</strong><br />
+								% Sie besitzen nicht die benötigte <strong>Zulassungsvorraussetzung</strong>.
+
+								<br />
+							</td>
+						</tr>
+						<tr>
+						<tr>
+							<td colspan="2" align="center">
+								<br />
+								<a href="/web/templates/ViewStudent.html">Teilnehmer anzeigen</a>
+								<br /><br />
+							</td>
+						</tr>
+							<td>
+								%<input type="submit" value="Veranstaltung editieren" class="button_100">
+								<a href="/web/templates/EditEvent.html">[klick]</a>
+							</td>
+							<td align="right">
+								%<input type="submit" value="Veranstaltung löschen" class="button_100">
+								<a href="/web/templates/DeleteEvent.html">[klick]</a>
+							</td>
+						</tr>
+
+						<br />
+						<br />
+<!-- Übungs-Info + Einschreiben + Edit ----------------------------------------------------------------------- -->
+
+						<table align="center" width="95%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="center">
+								<fieldset class="mainframe"><legend>Übungen</legend>
+								<table width="97%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td align="center">
+										%Sie sind in folgende &Uuml;bungsgruppe eingetragen:<br />
+										%folgende Tabelle...
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+									<br>
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+										<tr bgcolor="#cad5e3">
+											<td class="listinghead" width="20%">				Übungsgruppe</td>
+											<td class="listinghead" width="10%" align="center">	Belegung</td>
+											<td class="listinghead" width="5%" align="center">	Tag</td>
+											<td class="listinghead" width="7%" align="center">	Zeit</td>
+											<td class="listinghead" width="5%" align="center">	Woche</td>
+											<td class="listinghead" width="10%" align="center">	Ort</td>
+											<td class="listinghead" width="15%" align="center">	&Uuml;bungsgruppenleiter</td>
+											<td class="listinghead" align="center"></td>
+										</tr>
+										<tr bgcolor="#ebf2fa">
+											<td> <a href="/web/templates/EventInfo.html">%Event.sEventName</a></td>
+											<td align="center">	%Event.iSubscribed / %Event.iMaxSubscribtions</td>
+											<td align="center">	%Event.sDay</td>
+											<td align="center">	%Event.sTime</td>
+											<td align="center">	%Event.sRhythm</td>
+											<td align="center">	%Event.sLocation</td>
+											<td>				%Event.sLecturer</td>
+											<td ><input type="submit" value="austragen" class="button_100"></td>
+										</tr>
+										</tboby>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+										<br />
+										%M&ouml;chten Sie in eine andere &Uuml;bungsgruppe wechseln?<br />
+										%<strong>Sie sind z.Z. in keine &Uuml;bungsgruppe eingetragen.</strong>
+										<br />
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+									<br>
+										<table border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tbody>
+										<tr bgcolor="#cad5e3">
+											<td class="listinghead" width="20%">				Übungsgruppe</td>
+											<td class="listinghead" width="10%" align="center">	Belegung</td>
+											<td class="listinghead" width="5%" align="center">	Tag</td>
+											<td class="listinghead" width="7%" align="center">	Zeit</td>
+											<td class="listinghead" width="5%" align="center">	Woche</td>
+											<td class="listinghead" width="10%" align="center">	Ort</td>
+											<td class="listinghead" width="15%" align="center">	&Uuml;bungsgruppenleiter</td>
+											<td class="listinghead"></td>
+											<td class="listinghead"></td>
+										</tr>
+										<tr bgcolor="#ebf2fa">
+											<td> <a href="/web/templates/EventInfo.html">%Event.sEventName</a></td>
+											<td align="center">	%Event.iSubscribed / %Event.iMaxSubscribtions</td>
+											<td align="center">	%Event.sDay</td>
+											<td align="center">	%Event.sTime</td>
+											<td align="center">	%Event.sRhythm</td>
+											<td align="center">	%Event.sLocation</td>
+											<td>				%Event.sLecturer</td>
+											<td>%<input type="submit" value="wechseln" class="button_100"><br />
+												/%<input type="submit" value="eintragen" class="button_100">
+											</td>
+											<td> <a href="/web/templates/ViewStudent.html">Teilnehmer anzeigen</a></td>
+										</tr>
+										</tboby>
+										</table>
+										<br />
+									</td>
+								</tr>
+								</table>
+								</fieldset>
+							</td>
+						</tr>
+						</table>
+
+<br />
+<br />
+<!-- Prüfungs-Info + Einschreiben + Edit ----------------------------------------------------------------------- -->
+
+						<table align="center" width="95%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="center">
+							<fieldset class="mainframe"><legend>Prüfung</legend>
+							<table width="97%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td colspan="2">
+								<strong>Informationen zur Pr&uuml;fung:</strong><br /><br /><br />
+								%Event.sEventInfo<br /><br /><br />
+						<tr>
+							<td width="200">Pr&uuml;fungsleiter:</td>
+							<td>%Event.sLecturer &nbsp&nbsp <a href="/web/templates/User.sEmaiAddress">E-mail</td>
+						</tr>
+						<tr><td><br/ ><br /></td></tr>
+						<tr>
+							<td width="200">Die Veranstaltung findet statt am:</td>
+							<td>%Event.sEventDays</td>
+						</tr>
+						<tr><td><br/ ></td></tr>
+						<tr>
+							<td width="200">Zeit:</td>
+							<td>%Event.sTime</td>
+						</tr>
+						<tr><td><br/ ></td></tr>
+						<tr>
+						<!-- In Event fehlt noch das Attribut sLocation!!! -->
+							<td width="200">Ort:</td>
+							<td>%Event.sLocation</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+								<br />
+								<a href="/web/templates/ViewStudent.html">Teilnehmer anzeigen</a>
+								<br /><br />
+								<!-- Prüfungsergebnise nur für Dozenten -->
+								<a href="/web/templates/ExamResults.html">Pr&uuml;fungsergebnisse anzeigen</a>
+								<br /><br />
+								<!-- Prüfungsergebnis nur für Studenten -->
+								Sie  haben die Pr&uuml;fung bereits geschrieben.<br />
+								Ihr Ergebnis lautet:<br /><br />
+								<strong> %ExamResult.rResult </strong><br />
+								(%nicht bestanden)
+								<br /><br />
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"><br /><br />
+								<hr width="100%">
+								<br />
+								<strong>Informationen zur %(Anmeldung / Einschreibung):</strong><br /><br /><br />
+							</td>
+						</tr>
+						<tr>
+							<td width="200">%(Anmeldungsbeginn / Einschreibungsbeginn):</td>
+							<td>%Event.sSubscriptionStart</td>
+						</tr>
+						<tr><td><br/ ></td></tr>
+						<tr>
+							<td width="200">%(Anmeldungsende / Einschreibungsende):</td>
+							<td>%Event.sSubscriptionEnd</td>
+						</tr>
+						<tr>
+							<br />
+							<td colspan="2" align="center">%Sie sind bereits eingetragen.<br />
+							%<strong>Sie sind nicht eingetragen.</strong><br />
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center">
+							<br />
+							%<input type="submit" value="einschreiben" class="button_100">
+							%<input type="submit" value="austragen" class="button_100">
+							<br /><br />
+							%<strong>Einschreibung wurde abgebrochen.</strong><br />
+							% Sie besitzen nicht die benötigte <strong>Zulassungsvorraussetzung</strong>.
+							<br /><br />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								%<input type="submit" value="Veranstaltung editieren" class="button_100">
+								<a href="/web/templates/EditEvent.html">[klick]</a>
+							</td>
+							<td align="right">
+								%<input type="submit" value="Veranstaltung löschen" class="button_100">
+								<a href="/web/templates/DeleteEvent.html">[klick]</a>
+							</td>
+						</tr>
+						<tr><td><br /><br /></td></tr>
+						</table>
+						</fieldset>
+					<br />
+					</td>
+				</tr>
+				</table>
+			<br />
+			</td>
+		</tr>
+		</table>
+		</fieldset>
+		<br />
+		</td>
+	</tr>
+	</table>
+
+<!--	BODY-END, TAIL-START							-->
+<!--	eventuell Anzahl der Breaks kürzen!				-->
+				<br />
+
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+
+				<br />
+				&nbsp;
+		</fieldset>
+		<br />
+		</td>
+	</tr>
+	</table>
+	</td>
+</tr>
+</table>
+</body>
+
+</html>

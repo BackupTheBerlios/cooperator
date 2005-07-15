@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+<tiles-definitions>
+
+	<!-- Base Tiles Definition -->
+	<definition name="base.definition" path="/web/_layout.jsp">
+		<put name="header" value="/web/_header.jsp" />
+		<put name="footer" value="/web/_footer.jsp" />
+	</definition>
+
+	<definition name="page.login" extends="base.definition">
+		<put name="title" value="Benutzeranmeldung" />
+		<put name="body" value="/web/login.jsp" />
+	</definition>
+
+	<definition name="page.logout" extends="base.definition">
+		<put name="title" value="Abmeldung" />
+		<put name="body" value="/web/logout.jsp" />
+	</definition>
+
+	<definition name="page.loggedOut" extends="base.definition">
+		<put name="title" value="Abgemeldet" />
+		<put name="body" value="/web/loggedOut.jsp" />
+	</definition>
+
+	<definition name="page.viewEvents" extends="base.definition">
+		<put name="title" value="Aktuelle Veranstaltungen" />
+		<put name="body" value="/web/viewEvents.jsp" />
+	</definition>
+
+	<definition name="page.viewUsers" extends="base.definition">
+		<put name="title" value="Registrierte User" />
+		<put name="body" value="/web/viewUsers.jsp" />
+	</definition>
+
+	<definition name="page.editEvent" extends="base.definition">
+		<put name="title" value="Veranstaltungen editieren" />
+		<put name="body" value="/web/editEvent.jsp" />
+	</definition>
+
+	<definition name="page.profile" extends="base.definition">
+		<put name="title" value="Profil" />
+		<put name="body" value="/web/profile.jsp" />
+	</definition>
+
+	<definition name="page.impressum" extends="base.definition">
+		<put name="title" value="Impressum" />
+		<put name="body" value="/web/impressum.jsp" />
+	</definition>
+
+	<definition name="page.editGlobalSettings" extends="base.definition">
+		<put name="title" value="Globale Einstellungen" />
+		<put name="body" value="/web/editGlobalSettings.jsp" />
+	</definition>
+
+	<definition name="page.eventInfo" extends="base.definition">
+		<put name="title" value="Information zur Veranstaltung" />
+		<put name="body" value="/web/eventInfo.jsp" />
+	</definition>
+
+	<definition name="page.viewSubscriptions" extends="base.definition">
+		<put name="title" value="Einschreibungen verwalten" />
+		<put name="body" value="/web/viewSubscriptions.jsp" />
+	</definition>
+
+	<definition name="page.deleteEvent" extends="base.definition">
+		<put name="title" value="Veranstaltung löschen" />
+		<put name="body" value="/web/deleteEvent.jsp" />
+	</definition>
+
+	<definition name="page.register" extends="base.definition">
+		<put name="title" value="Anmelden" />
+		<put name="body" value="/web/register.jsp" />
+	</definition>
+
+	<definition name="page.forgotPass" extends="base.definition">
+		<put name="title" value="Anmelden" />
+		<put name="body" value="/web/forgotPass.jsp" />
+	</definition>
+
+	<definition name="page.deleteUser" extends="base.definition">
+		<put name="title" value="User löschen" />
+		<put name="body" value="/web/deleteUser.jsp" />
+	</definition>
+
+	<definition name="page.createSubscriberList" extends="base.definition">
+		<put name="title" value="Einschreibungsliste zum lokalen speichern/drucken erstellen" />
+		<put name="body" value="/web/createSubscriberList.jsp" />
+	</definition>
+
+</tiles-definitions>

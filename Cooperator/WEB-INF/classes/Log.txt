@@ -1,0 +1,391 @@
+04.06.2005 11:09:08  -  valid test (directly)
+04.06.2005 11:09:09  -  Starting Test for EventResultManager
+04.06.2005 11:11:07  -  valid test (width file-name)
+04.06.2005 11:11:07  -  valid test (directly)
+04.06.2005 11:11:08  -  Starting Test for EventResultManager
+04.06.2005 11:11:08  -  ERM: ./Result_5.xml
+04.06.2005 11:13:22  -  valid test (width file-name)
+04.06.2005 11:13:22  -  valid test (directly)
+04.06.2005 11:13:22  -  Starting Test for EventResultManager
+04.06.2005 11:14:50  -  valid test (width file-name)
+04.06.2005 11:14:50  -  valid test (directly)
+04.06.2005 11:14:51  -  Starting Test for EventResultManager
+04.06.2005 11:15:12  -  valid test (width file-name)
+04.06.2005 11:15:12  -  valid test (directly)
+04.06.2005 11:15:13  -  Starting Test for EventResultManager
+04.06.2005 11:16:04  -  valid test (width file-name)
+04.06.2005 11:16:04  -  valid test (directly)
+04.06.2005 11:16:04  -  Starting Test for EventResultManager
+04.06.2005 11:17:16  -  valid test (width file-name)
+04.06.2005 11:17:16  -  valid test (directly)
+04.06.2005 11:17:17  -  Starting Test for EventResultManager
+04.06.2005 11:17:30  -  valid test (width file-name)
+04.06.2005 11:17:30  -  valid test (directly)
+04.06.2005 11:17:31  -  Starting Test for EventResultManager
+04.06.2005 11:22:45  -  valid test (width file-name)
+04.06.2005 11:22:45  -  valid test (directly)
+04.06.2005 11:22:45  -  Starting Test for EventResultManager
+04.06.2005 11:22:57  -  valid test (width file-name)
+04.06.2005 11:22:57  -  valid test (directly)
+04.06.2005 11:22:58  -  Starting Test for EventResultManager
+04.06.2005 11:24:34  -  valid test (width file-name)
+04.06.2005 11:24:34  -  valid test (directly)
+04.06.2005 11:24:35  -  Starting Test for EventResultManager
+04.06.2005 11:25:11  -  valid test (width file-name)
+04.06.2005 11:25:11  -  valid test (directly)
+04.06.2005 11:25:12  -  Starting Test for EventResultManager
+04.06.2005 11:28:05  -  valid test (width file-name)
+04.06.2005 11:28:05  -  valid test (directly)
+04.06.2005 11:28:05  -  Starting Test for EventResultManager
+04.06.2005 11:28:15  -  valid test (width file-name)
+04.06.2005 11:28:15  -  valid test (directly)
+04.06.2005 11:28:16  -  Starting Test for EventResultManager
+04.06.2005 11:28:21  -  valid test (width file-name)
+04.06.2005 11:28:21  -  valid test (directly)
+04.06.2005 11:28:22  -  Starting Test for EventResultManager
+04.06.2005 11:29:20  -  valid test (width file-name)
+04.06.2005 11:29:20  -  valid test (directly)
+04.06.2005 11:29:21  -  Starting Test for EventResultManager
+04.06.2005 11:30:17  -  valid test (width file-name)
+04.06.2005 11:30:17  -  valid test (directly)
+04.06.2005 11:30:18  -  Starting Test for EventResultManager
+04.06.2005 11:31:48  -  valid test (width file-name)
+04.06.2005 11:31:48  -  valid test (directly)
+04.06.2005 11:31:49  -  Starting Test for EventResultManager
+04.06.2005 11:35:25  -  valid test (width file-name)
+04.06.2005 11:35:25  -  valid test (directly)
+04.06.2005 11:35:25  -  Starting Test for EventResultManager
+05.06.2005 11:18:47  -  valid test (width file-name)
+05.06.2005 11:18:47  -  valid test (directly)
+05.06.2005 11:18:50  -  Starting Test for EventResultManager
+05.06.2005 11:18:50  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:18:50  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:18:50  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:18:50  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:18:50  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:20:32  -  valid test (width file-name)
+05.06.2005 11:20:32  -  valid test (directly)
+05.06.2005 11:20:33  -  Starting Test for EventResultManager
+05.06.2005 11:20:34  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:20:34  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:20:34  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:20:34  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:20:34  -  ERROR: Database for global varibales contains no global-tag!
+05.06.2005 11:24:13  -  valid test (width file-name)
+05.06.2005 11:24:13  -  valid test (directly)
+05.06.2005 11:24:14  -  Starting Test for EventResultManager
+05.06.2005 11:25:46  -  valid test (width file-name)
+05.06.2005 11:25:46  -  valid test (directly)
+05.06.2005 11:25:47  -  Starting Test for EventResultManager
+05.06.2005 11:34:49  -  valid test (width file-name)
+05.06.2005 11:34:49  -  valid test (directly)
+05.06.2005 11:34:50  -  Starting Test for EventResultManager
+05.06.2005 11:35:35  -  valid test (width file-name)
+05.06.2005 11:35:35  -  valid test (directly)
+05.06.2005 11:35:36  -  Starting Test for EventResultManager
+05.06.2005 11:35:47  -  valid test (width file-name)
+05.06.2005 11:35:47  -  valid test (directly)
+05.06.2005 11:35:48  -  Starting Test for EventResultManager
+05.06.2005 11:40:23  -  valid test (width file-name)
+05.06.2005 11:40:23  -  valid test (directly)
+05.06.2005 11:40:24  -  Starting Test for EventResultManager
+05.06.2005 11:40:33  -  valid test (width file-name)
+05.06.2005 11:40:33  -  valid test (directly)
+05.06.2005 11:40:34  -  Starting Test for EventResultManager
+05.06.2005 11:40:40  -  valid test (width file-name)
+05.06.2005 11:40:40  -  valid test (directly)
+05.06.2005 11:40:41  -  Starting Test for EventResultManager
+05.06.2005 19:41:17  -  valid test (width file-name)
+05.06.2005 19:41:17  -  valid test (directly)
+05.06.2005 19:41:19  -  Starting Test for EventResultManager
+05.06.2005 19:42:10  -  valid test (width file-name)
+05.06.2005 19:42:10  -  valid test (directly)
+05.06.2005 19:42:11  -  Starting Test for EventResultManager
+05.06.2005 19:43:02  -  valid test (width file-name)
+05.06.2005 19:43:02  -  valid test (directly)
+05.06.2005 19:43:03  -  Starting Test for EventResultManager
+05.06.2005 19:43:26  -  valid test (width file-name)
+05.06.2005 19:43:26  -  valid test (directly)
+05.06.2005 19:43:27  -  Starting Test for EventResultManager
+05.06.2005 19:43:45  -  valid test (width file-name)
+05.06.2005 19:43:45  -  valid test (directly)
+05.06.2005 19:43:46  -  Starting Test for EventResultManager
+05.06.2005 19:45:51  -  valid test (width file-name)
+05.06.2005 19:45:51  -  valid test (directly)
+05.06.2005 19:45:52  -  Starting Test for EventResultManager
+05.06.2005 19:46:25  -  valid test (width file-name)
+05.06.2005 19:46:25  -  valid test (directly)
+05.06.2005 19:46:26  -  Starting Test for EventResultManager
+05.06.2005 19:46:48  -  valid test (width file-name)
+05.06.2005 19:46:48  -  valid test (directly)
+05.06.2005 19:46:49  -  Starting Test for EventResultManager
+05.06.2005 19:48:00  -  valid test (width file-name)
+05.06.2005 19:48:00  -  valid test (directly)
+05.06.2005 19:48:01  -  Starting Test for EventResultManager
+05.06.2005 19:49:31  -  valid test (width file-name)
+05.06.2005 19:49:31  -  valid test (directly)
+05.06.2005 19:49:32  -  Starting Test for EventResultManager
+05.06.2005 19:49:56  -  valid test (width file-name)
+05.06.2005 19:49:56  -  valid test (directly)
+05.06.2005 19:49:57  -  Starting Test for EventResultManager
+05.06.2005 19:51:10  -  valid test (width file-name)
+05.06.2005 19:51:10  -  valid test (directly)
+05.06.2005 19:51:11  -  Starting Test for EventResultManager
+05.06.2005 19:53:12  -  valid test (width file-name)
+05.06.2005 19:53:12  -  valid test (directly)
+05.06.2005 19:53:13  -  Starting Test for EventResultManager
+05.06.2005 19:53:34  -  valid test (width file-name)
+05.06.2005 19:53:34  -  valid test (directly)
+05.06.2005 19:53:35  -  Starting Test for EventResultManager
+05.06.2005 19:54:09  -  valid test (width file-name)
+05.06.2005 19:54:09  -  valid test (directly)
+05.06.2005 19:54:10  -  Starting Test for EventResultManager
+05.06.2005 19:54:16  -  valid test (width file-name)
+05.06.2005 19:54:16  -  valid test (directly)
+05.06.2005 19:54:17  -  Starting Test for EventResultManager
+05.06.2005 19:55:55  -  valid test (width file-name)
+05.06.2005 19:55:55  -  valid test (directly)
+05.06.2005 19:55:56  -  Starting Test for EventResultManager
+05.06.2005 19:56:18  -  valid test (width file-name)
+05.06.2005 19:56:18  -  valid test (directly)
+05.06.2005 19:56:19  -  Starting Test for EventResultManager
+05.06.2005 19:56:46  -  valid test (width file-name)
+05.06.2005 19:56:46  -  valid test (directly)
+05.06.2005 19:56:47  -  Starting Test for EventResultManager
+05.06.2005 19:57:09  -  valid test (width file-name)
+05.06.2005 19:57:09  -  valid test (directly)
+05.06.2005 19:57:10  -  Starting Test for EventResultManager
+05.06.2005 19:57:31  -  valid test (width file-name)
+05.06.2005 19:57:31  -  valid test (directly)
+05.06.2005 19:57:32  -  Starting Test for EventResultManager
+05.06.2005 19:57:48  -  valid test (width file-name)
+05.06.2005 19:57:48  -  valid test (directly)
+05.06.2005 19:57:50  -  Starting Test for EventResultManager
+05.06.2005 19:58:09  -  valid test (width file-name)
+05.06.2005 19:58:09  -  valid test (directly)
+05.06.2005 19:58:10  -  Starting Test for EventResultManager
+05.06.2005 19:58:26  -  valid test (width file-name)
+05.06.2005 19:58:26  -  valid test (directly)
+05.06.2005 19:58:27  -  Starting Test for EventResultManager
+05.06.2005 19:58:50  -  valid test (width file-name)
+05.06.2005 19:58:50  -  valid test (directly)
+05.06.2005 19:58:51  -  Starting Test for EventResultManager
+05.06.2005 20:00:09  -  valid test (width file-name)
+05.06.2005 20:00:09  -  valid test (directly)
+05.06.2005 20:00:10  -  Starting Test for EventResultManager
+05.06.2005 20:00:28  -  valid test (width file-name)
+05.06.2005 20:00:28  -  valid test (directly)
+05.06.2005 20:00:29  -  Starting Test for EventResultManager
+05.06.2005 20:01:11  -  valid test (width file-name)
+05.06.2005 20:01:11  -  valid test (directly)
+05.06.2005 20:01:12  -  Starting Test for EventResultManager
+05.06.2005 20:01:28  -  valid test (width file-name)
+05.06.2005 20:01:28  -  valid test (directly)
+05.06.2005 20:01:29  -  Starting Test for EventResultManager
+05.06.2005 20:01:38  -  valid test (width file-name)
+05.06.2005 20:01:38  -  valid test (directly)
+05.06.2005 20:01:39  -  Starting Test for EventResultManager
+05.06.2005 20:01:56  -  valid test (width file-name)
+05.06.2005 20:01:56  -  valid test (directly)
+05.06.2005 20:01:57  -  Starting Test for EventResultManager
+05.06.2005 20:02:30  -  valid test (width file-name)
+05.06.2005 20:02:30  -  valid test (directly)
+05.06.2005 20:02:31  -  Starting Test for EventResultManager
+05.06.2005 20:03:25  -  valid test (width file-name)
+05.06.2005 20:03:25  -  valid test (directly)
+05.06.2005 20:03:26  -  Starting Test for EventResultManager
+05.06.2005 20:03:42  -  valid test (width file-name)
+05.06.2005 20:03:42  -  valid test (directly)
+05.06.2005 20:03:43  -  Starting Test for EventResultManager
+05.06.2005 20:04:52  -  valid test (width file-name)
+05.06.2005 20:04:52  -  valid test (directly)
+05.06.2005 20:04:53  -  Starting Test for EventResultManager
+05.06.2005 20:05:10  -  valid test (width file-name)
+05.06.2005 20:05:10  -  valid test (directly)
+05.06.2005 20:05:11  -  Starting Test for EventResultManager
+05.06.2005 20:05:36  -  valid test (width file-name)
+05.06.2005 20:05:36  -  valid test (directly)
+05.06.2005 20:05:36  -  Starting Test for EventResultManager
+05.06.2005 20:06:27  -  valid test (width file-name)
+05.06.2005 20:06:27  -  valid test (directly)
+05.06.2005 20:06:28  -  Starting Test for EventResultManager
+05.06.2005 20:07:02  -  valid test (width file-name)
+05.06.2005 20:07:02  -  valid test (directly)
+05.06.2005 20:07:03  -  Starting Test for EventResultManager
+05.06.2005 20:07:36  -  valid test (width file-name)
+05.06.2005 20:07:36  -  valid test (directly)
+05.06.2005 20:07:37  -  Starting Test for EventResultManager
+05.06.2005 20:08:04  -  valid test (width file-name)
+05.06.2005 20:08:04  -  valid test (directly)
+05.06.2005 20:08:05  -  Starting Test for EventResultManager
+05.06.2005 20:08:52  -  valid test (width file-name)
+05.06.2005 20:08:52  -  valid test (directly)
+05.06.2005 20:08:53  -  Starting Test for EventResultManager
+05.06.2005 20:09:45  -  valid test (width file-name)
+05.06.2005 20:09:45  -  valid test (directly)
+05.06.2005 20:09:46  -  Starting Test for EventResultManager
+05.06.2005 20:10:14  -  valid test (width file-name)
+05.06.2005 20:10:14  -  valid test (directly)
+05.06.2005 20:10:15  -  Starting Test for EventResultManager
+05.06.2005 20:11:24  -  valid test (width file-name)
+05.06.2005 20:11:24  -  valid test (directly)
+05.06.2005 20:11:25  -  Starting Test for EventResultManager
+05.06.2005 20:12:05  -  valid test (width file-name)
+05.06.2005 20:12:05  -  valid test (directly)
+05.06.2005 20:12:06  -  Starting Test for EventResultManager
+05.06.2005 20:12:30  -  valid test (width file-name)
+05.06.2005 20:12:30  -  valid test (directly)
+05.06.2005 20:12:31  -  Starting Test for EventResultManager
+05.06.2005 20:13:14  -  valid test (width file-name)
+05.06.2005 20:13:14  -  valid test (directly)
+05.06.2005 20:13:15  -  Starting Test for EventResultManager
+05.06.2005 20:13:42  -  valid test (width file-name)
+05.06.2005 20:13:42  -  valid test (directly)
+05.06.2005 20:13:43  -  Starting Test for EventResultManager
+05.06.2005 20:14:12  -  valid test (width file-name)
+05.06.2005 20:14:12  -  valid test (directly)
+05.06.2005 20:14:13  -  Starting Test for EventResultManager
+05.06.2005 20:14:37  -  valid test (width file-name)
+05.06.2005 20:14:37  -  valid test (directly)
+05.06.2005 20:14:38  -  Starting Test for EventResultManager
+05.06.2005 20:15:01  -  valid test (width file-name)
+05.06.2005 20:15:01  -  valid test (directly)
+05.06.2005 20:15:02  -  Starting Test for EventResultManager
+05.06.2005 20:15:14  -  valid test (width file-name)
+05.06.2005 20:15:14  -  valid test (directly)
+05.06.2005 20:15:15  -  Starting Test for EventResultManager
+05.06.2005 20:15:49  -  valid test (width file-name)
+05.06.2005 20:15:49  -  valid test (directly)
+05.06.2005 20:15:50  -  Starting Test for EventResultManager
+05.06.2005 20:16:05  -  valid test (width file-name)
+05.06.2005 20:16:05  -  valid test (directly)
+05.06.2005 20:16:06  -  Starting Test for EventResultManager
+05.06.2005 20:16:25  -  valid test (width file-name)
+05.06.2005 20:16:25  -  valid test (directly)
+05.06.2005 20:16:26  -  Starting Test for EventResultManager
+05.06.2005 20:16:48  -  valid test (width file-name)
+05.06.2005 20:16:48  -  valid test (directly)
+05.06.2005 20:16:49  -  Starting Test for EventResultManager
+05.06.2005 20:17:16  -  valid test (width file-name)
+05.06.2005 20:17:16  -  valid test (directly)
+05.06.2005 20:17:17  -  Starting Test for EventResultManager
+05.06.2005 20:17:31  -  valid test (width file-name)
+05.06.2005 20:17:31  -  valid test (directly)
+05.06.2005 20:17:32  -  Starting Test for EventResultManager
+05.06.2005 20:17:43  -  valid test (width file-name)
+05.06.2005 20:17:43  -  valid test (directly)
+05.06.2005 20:17:44  -  Starting Test for EventResultManager
+05.06.2005 20:18:39  -  valid test (width file-name)
+05.06.2005 20:18:39  -  valid test (directly)
+05.06.2005 20:18:40  -  Starting Test for EventResultManager
+05.06.2005 20:19:00  -  valid test (width file-name)
+05.06.2005 20:19:00  -  valid test (directly)
+05.06.2005 20:19:01  -  Starting Test for EventResultManager
+05.06.2005 20:19:44  -  valid test (width file-name)
+05.06.2005 20:19:44  -  valid test (directly)
+05.06.2005 20:19:45  -  Starting Test for EventResultManager
+05.06.2005 20:21:13  -  valid test (width file-name)
+05.06.2005 20:21:13  -  valid test (directly)
+05.06.2005 20:21:14  -  Starting Test for EventResultManager
+05.06.2005 20:21:43  -  valid test (width file-name)
+05.06.2005 20:21:43  -  valid test (directly)
+05.06.2005 20:21:44  -  Starting Test for EventResultManager
+05.06.2005 20:22:05  -  valid test (width file-name)
+05.06.2005 20:22:05  -  valid test (directly)
+05.06.2005 20:22:06  -  Starting Test for EventResultManager
+05.06.2005 20:22:32  -  valid test (width file-name)
+05.06.2005 20:22:32  -  valid test (directly)
+05.06.2005 20:22:33  -  Starting Test for EventResultManager
+05.06.2005 20:23:00  -  valid test (width file-name)
+05.06.2005 20:23:00  -  valid test (directly)
+05.06.2005 20:23:01  -  Starting Test for EventResultManager
+05.06.2005 20:23:42  -  valid test (width file-name)
+05.06.2005 20:23:42  -  valid test (directly)
+05.06.2005 20:23:43  -  Starting Test for EventResultManager
+05.06.2005 20:24:12  -  valid test (width file-name)
+05.06.2005 20:24:12  -  valid test (directly)
+05.06.2005 20:24:13  -  Starting Test for EventResultManager
+05.06.2005 20:24:15  -  valid test (width file-name)
+05.06.2005 20:24:15  -  valid test (directly)
+05.06.2005 20:24:16  -  Starting Test for EventResultManager
+05.06.2005 20:24:34  -  valid test (width file-name)
+05.06.2005 20:24:34  -  valid test (directly)
+05.06.2005 20:24:35  -  Starting Test for EventResultManager
+05.06.2005 20:25:00  -  valid test (width file-name)
+05.06.2005 20:25:00  -  valid test (directly)
+05.06.2005 20:25:01  -  Starting Test for EventResultManager
+05.06.2005 20:25:19  -  valid test (width file-name)
+05.06.2005 20:25:19  -  valid test (directly)
+05.06.2005 20:25:20  -  Starting Test for EventResultManager
+05.06.2005 20:25:44  -  valid test (width file-name)
+05.06.2005 20:25:44  -  valid test (directly)
+05.06.2005 20:25:45  -  Starting Test for EventResultManager
+05.06.2005 20:27:11  -  valid test (width file-name)
+05.06.2005 20:27:11  -  valid test (directly)
+05.06.2005 20:27:12  -  Starting Test for EventResultManager
+05.06.2005 20:27:57  -  valid test (width file-name)
+05.06.2005 20:27:57  -  valid test (directly)
+05.06.2005 20:27:58  -  Starting Test for EventResultManager
+05.06.2005 20:28:12  -  valid test (width file-name)
+05.06.2005 20:28:12  -  valid test (directly)
+05.06.2005 20:28:13  -  Starting Test for EventResultManager
+05.06.2005 20:29:11  -  valid test (width file-name)
+05.06.2005 20:29:11  -  valid test (directly)
+05.06.2005 20:29:12  -  Starting Test for EventResultManager
+05.06.2005 20:33:15  -  valid test (width file-name)
+05.06.2005 20:33:15  -  valid test (directly)
+05.06.2005 20:33:16  -  Starting Test for EventResultManager
+05.06.2005 20:34:29  -  valid test (width file-name)
+05.06.2005 20:34:29  -  valid test (directly)
+05.06.2005 20:34:30  -  Starting Test for EventResultManager
+05.06.2005 20:34:43  -  valid test (width file-name)
+05.06.2005 20:34:43  -  valid test (directly)
+05.06.2005 20:34:44  -  Starting Test for EventResultManager
+05.06.2005 20:35:01  -  valid test (width file-name)
+05.06.2005 20:35:01  -  valid test (directly)
+05.06.2005 20:35:02  -  Starting Test for EventResultManager
+05.06.2005 20:35:12  -  valid test (width file-name)
+05.06.2005 20:35:12  -  valid test (directly)
+05.06.2005 20:35:13  -  Starting Test for EventResultManager
+05.06.2005 20:35:19  -  valid test (width file-name)
+05.06.2005 20:35:19  -  valid test (directly)
+05.06.2005 20:35:20  -  Starting Test for EventResultManager
+05.06.2005 20:38:17  -  valid test (width file-name)
+05.06.2005 20:38:17  -  valid test (directly)
+05.06.2005 20:38:18  -  Starting Test for EventResultManager
+05.06.2005 20:39:41  -  valid test (width file-name)
+05.06.2005 20:39:41  -  valid test (directly)
+05.06.2005 20:39:42  -  Starting Test for EventResultManager
+05.06.2005 20:41:06  -  valid test (width file-name)
+05.06.2005 20:41:06  -  valid test (directly)
+05.06.2005 20:41:08  -  Starting Test for EventResultManager
+05.06.2005 20:47:50  -  valid test (width file-name)
+05.06.2005 20:47:50  -  valid test (directly)
+05.06.2005 20:47:51  -  Starting Test for EventResultManager
+05.06.2005 20:48:06  -  valid test (width file-name)
+05.06.2005 20:48:06  -  valid test (directly)
+05.06.2005 20:48:07  -  Starting Test for EventResultManager
+06.06.2005 14:44:57  -  valid test (width file-name)
+06.06.2005 14:44:57  -  valid test (directly)
+06.06.2005 14:44:59  -  Starting Test for EventResultManager
+06.06.2005 15:07:54  -  valid test (width file-name)
+06.06.2005 15:07:54  -  valid test (directly)
+06.06.2005 15:07:54  -  ERROR: Entry for event "Abteilung Technische Informatik" failed and seems to contain errors!
+06.06.2005 15:07:54  -  ERROR: Entry for event "Abteilung Angewandte Informatik" failed and seems to contain errors!
+06.06.2005 15:07:54  -  ERROR: Entry for event "Abteilung Technische Informatik" failed and seems to contain errors!
+06.06.2005 15:07:54  -  ERROR: Entry for event "Abteilung Angewandte Informatik" failed and seems to contain errors!
+06.06.2005 15:07:55  -  Starting Test for EventResultManager
+08.06.2005 19:29:37  -  valid test (width file-name)
+08.06.2005 19:29:37  -  valid test (directly)
+08.06.2005 19:29:39  -  ERROR: Entry for event "Freie Universität Berlin" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Fakultät für Informatik" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Fakultät für Mathematik" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Abteilung Technische Informatik" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Abteilung Angewandte Informatik" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Universität Leipzig" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Universität Leipzig" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Freie Universität Berlin" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Fakultät für Informatik" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Fakultät für Mathematik" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Abteilung Technische Informatik" failed and seems to contain errors!
+08.06.2005 19:29:39  -  ERROR: Entry for event "Abteilung Angewandte Informatik" failed and seems to contain errors!

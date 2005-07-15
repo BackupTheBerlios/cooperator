@@ -1,0 +1,181 @@
+p,ul,ol,li,div,td,th,address,blockquote,nobr,i,b
+     { font-size: 12px; font-family: Arial, Helvetica, Geneva, Verdana, sans-serif }
+
+legend { font-family: "Times New Roman", Times, serif; font-size: 15px; color: #0046D5; font-weight: normal; }
+fieldset { border: 1px #8080B0; border-style: solid; -moz-border-radius: 15px; }
+textarea { 	font-size: 90%;	font-family: verdana, helvetica, sans-serif; }
+
+img { border: 0px; }
+
+.listing { padding: 2px; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.listinghead {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px}
+
+.fsnormal
+{
+	background-color: #F0F0FF;
+}
+.fsbright
+{
+	background-color: #F8F8FF;
+}
+.fscreatesubscriberlist
+{
+	background-color: #F0F0FF;
+	width: 98%;
+}
+.fsviewevents
+{
+	background-color: #F0F0FF;
+	width: 98%;
+}
+.fsviewusers
+{
+	background-color: #F0F0FF;
+	width: 98%;
+}
+.fslogin
+{
+	background-color: #F0F0FF;
+	width: 330px;
+}
+.fsedit
+{
+	background-color: #F0F0FF;
+	width: 100%;
+}
+.fseditevent
+{
+	background-color: #F0F0FF;
+	width: 100%;
+}
+.mainframe
+{
+	background-color: #F8F8FF;
+	width: 98%;
+}
+.fsall
+{
+	width: 100%;
+}
+input
+{
+	padding: 2px;
+	padding-left: 5px;
+	border: 1px #8080B0 dotted;
+}
+.input_40
+{
+	width:	40px;
+	border: 1px #8080B0 dotted;
+	height: 22px;
+}
+.input_80
+{
+	width:	80px;
+	border: 1px #8080B0 dotted;
+	height: 22px;
+}
+.input_200
+{
+	width:	200px;
+	border: 1px #8080B0 dotted;
+	height: 22px;
+}
+.input_350
+{
+	width:	350px;
+	border: 1px #8080B0 dotted;
+	height: 22px;
+}
+.input_full
+{
+	width:	98%;
+	border: 1px #8080B0 dotted;
+	height: 22px;
+}
+.ta_full
+{
+	width:	98%;
+	border: 1px #8080B0 dotted;
+	padding: 2px;
+}
+.ta_total
+{
+	width:	100%;
+	border: 1px #8080B0 dotted;
+	padding: 2px;
+}
+.ta_full
+{
+	width:	98%;
+	border: 1px #8080B0 dotted;
+	padding: 2px;
+}
+.button_80
+{
+	width:	80px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+	background-color: #cad5e3;
+}
+.button_100
+{
+	width:	100px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+	background-color: #cad5e3;
+}
+.button_150
+{
+	width:	150px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+	background-color: #cad5e3;
+}
+.button_220
+{
+	width:	220px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+	background-color: #cad5e3;
+}
+.select_version
+{
+	border:	1px #8080B0 dotted;
+	height: 22px;
+}
+.dropdown_80
+{
+	width: 80px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+}
+.dropdown_150
+{
+	width: 150px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+}
+.dropdown_200
+{
+	width: 200px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+}
+.dropdown_350
+{
+	width: 350px;
+	border:	1px #8080B0 dotted;
+	height: 22px;
+}
+.textarea_350
+{
+	width:	350px;
+	border:	1px #8080B0 dotted;
+}
+
+.errorMessage
+{
+	color: #ff0000;
+	font-weight: bold;
+}

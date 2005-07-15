@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event max_sub="0" sub_start="0" sub_end="0" unsub_end="0" parent="-1" type="0" name="Freie Universität Berlin" id="1" lecturer="-" start="0" info="Die Freie Universität zu Berlin" />
+  <event max_sub="0" sub_start="0" sub_end="0" unsub_end="0" parent="0" type="0" name="Fakultät für Informatik" id="2" lecturer="-" start="0" info="Die Fakultät für Informatik liegt direkt am Augustusplatz mit Blick auf den Springbrunnen. WLAN vorhanden." />
+  <event max_sub="0" sub_start="0" sub_end="0" unsub_end="0" parent="0" type="0" name="Fakultät für Mathematik" id="3" lecturer="-" start="0" info="Die Fakultät für Informatik liegt direkt am Augustusplatz mit Blick auf den Springbrunnen. WLAN vorhanden." />
+  <event max_sub="0" sub_start="1116765898876" sub_end="1118925898876" unsub_end="1119530698876" parent="2" type="1118925898876" name="Abteilung Technische Informatik" id="4" lecturer="-" start="0" info="Hier dreht sich alles um Hardware und sowohl Praxis aus auch Theorie dazu. Treffen sie brillante Exoten wie Herrn Dr. Liekse oder Herrn Dr. Middendorf. ;-)" />
+  <event max_sub="0" sub_start="1116765898876" sub_end="1118925898876" unsub_end="1119530698876" parent="2" type="1118925898876" name="Abteilung Angewandte Informatik" id="5" lecturer="-" start="0" info="Hier lernen sie praktische Anwendung von Programmiersprachen und Prozesse der Software-Erstellung" />
+</events>
+

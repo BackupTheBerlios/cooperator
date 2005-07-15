@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars>
+  <global forceEMailsOnUsers="true" forceEMailsOnLecturers="false" systemMailAddress="BlueCobold@gmx.de" registerSubject="Ihre Anmeldung am Cooperator">
+    <usermail mail="studserv.uni-leipzig.de" />
+    <lectmail mail="fu-berlin.de" />
+    <usermail mail="gmx.de" />
+    <usermail mail="inf.fu-berlin.de" />
+    <lectmail mail="uni-leipzig.de" />
+    <usermail mail="informatik.uni-leipzig.de" />
+  </global>
+</vars>
+

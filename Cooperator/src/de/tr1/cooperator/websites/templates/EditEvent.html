@@ -1,0 +1,193 @@
+<html>
+<head>
+
+<title>
+Veranstaltung editieren
+</title>
+
+<link rel="stylesheet" href="/web/templates/style.css" type="text/css">
+</head>
+<body bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td align="center">
+		<table width="97%" border="0" cellspacing="0" cellpadding="0"
+		<tr>
+			<td align="center">
+				<fieldset class="mainframe"><legend>Cooperator v0.1</legend>
+				<div style="text-align:right">
+					<a href="/web/templates/Logout.html">Logout</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/Profile.html">Profil</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/ViewUsers.html">User</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/ViewEvents.html">Veranstaltungen</a>&nbsp;&nbsp;&nbsp;
+					<a href="/web/templates/Impressum.html">Impressum</a>
+
+				<br />
+				<br />
+<!--	HEAD-END, BODY-START							-->
+<!--	ab hier kann die Page frei angepasst werden		-->
+
+		<table align="center" width="70%">
+			<tr>
+				<td>
+					<fieldset class="mainframe"><legend>Veranstaltung editieren</legend>
+				<table align="center" width="85%">
+					<tr>
+					<td>
+						<br />
+						<br />
+					</td>
+					</tr>
+						<tr>
+							<td>
+								Name der Veranstaltung:
+							</td>
+							<td >
+								<input type="text" size="30" value="%Event.sEventName" name="EventName" readonly>
+ 							</td>
+						</tr>
+						<tr>
+							<td>
+								Ort der Veranstaltung:
+							</td>
+							<td>
+								<input type="text" value="%Event.sLocation" name="EventLocation">
+ 							</td>
+						</tr>
+						<tr>
+							<td>
+								Termin der Veranstaltung:
+								<br />
+								(Bei mehreren Terminen zur selben <br />
+								 Veranstaltung diese bitte mit<br />
+								 Kommata trennen)
+							</td>
+							<td>
+						<table>
+							<tr>
+							<td>
+							</td width="10%">
+							<td>
+								Wochentag:
+ 							</td>
+ 							<td>
+								<input type="text" value="%Event.sWeekDay" name="WeekDay">
+ 							</td>
+ 							</tr>
+ 							<tr>
+ 							<td>
+ 							</td>
+							<td>
+								Uhrzeit:
+ 							</td>
+ 							<td>
+								<input type="text" value="%Event.sTime" name="Time">
+ 							</td>
+ 							</tr>
+ 							<tr>
+ 							<td>
+ 							</td>
+							<td>
+								Woche (A/B):
+ 							</td>
+ 							<td>
+								<input type="text" value="% Event.sRhythm" name="Rhythm">
+ 							</td>
+ 							</tr>
+ 						</table>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Erster Termin:
+							</td>
+							<td>
+								<input type="text" value="%Event.sEventStart" name="EventStart">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&Uuml;bergeordnete Veranstaltungen:
+							</td>
+							<td>
+								<input type="text" size="30" value="%Event.iParentEvent" name="ParentEvent">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Leiter der Veranstaltung [nur für Admin]:
+							</td>
+							<td>
+								<input type="text" size="30" value="%Event.sLecturer" name="Lecturer">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<br />
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td align="right">
+								<input type="submit" value="übernehmen" name="ChangeData">
+							</td>
+						</tr>
+					</table>
+
+						<br />
+						<hr width="100%">
+					<table align="center" width="85%">
+						<tr>
+							<td width="45%" valign="top">
+								Zusätzliche Information:
+							</td>
+							<td>
+								<textarea name="ExtraInfo" cols="25" rows="5" >
+% Event.sEventInfo
+
+								</textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<br />
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td align="right" >
+								<input type="submit" value="  zurück  " name="ReturnButton">
+								&nbsp;&nbsp;
+								<input type="submit" value="übernehmen" name="ChangeExtraData">
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td align="center">
+								<a href="/web/templates/EventInfo.html">
+								[klick]
+								</a>
+							</td>
+						</tr>
+				</table>
+				</fieldset>
+				</td>
+			</tr>
+		</table>
+
+<!--	BODY-END, TAIL-START							-->
+<!--	eventuell Anzahl der Breaks kürzen!				-->
+				<br />
+				&nbsp;
+				</fieldset>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>

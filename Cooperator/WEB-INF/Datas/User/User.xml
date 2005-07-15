@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<USERS>
+  <USER login="faehnrich" pw="-1816-6121-21-94-57916462-87-11154-11-76-115" ri="2" pn="044012399X" fn="Klaus-Peter" sn="Fähnrich" em="faehnrich@informatik.uni-leipzig.de" />
+  <USER login="der" pw="-1816-6121-21-94-57916462-87-11154-11-76-115" ri="2" pn="0440129X22" fn="Ralph" sn="Der" em="der@uni-leipzig.de" />
+  <USER login="mirko" pw="-1816-6121-21-94-57916462-87-11154-11-76-115" ri="1" pn="0000002" fn="Mirko" sn="Schmidt" em="mirko_schmidt@gmx.de" />
+  <USER login="ibrahim" pw="-1816-6121-21-94-57916462-87-11154-11-76-115" ri="1" pn="0000006" fn="Ibrahim" sn="Osman" em="bss99aqj@studserv.uni-leipzig.de" />
+  <USER login="sille_docent" pw="12224-128811476-79-743845-1097-79-103-115-48" ri="2" pn="4711" fn="Sebastian" sn="Kohl" em="BlueCobold@gmx.de" />
+  <USER login="Tester" pw="40-2116-3-51110-101-126121-1774-110-115124-2535" ri="1" pn="Ô_o" fn="Hans" sn="Wurst" em="BlueCobold@gmx.de" />
+  <USER login="sven" pw="2965533-37-24108104953137-106-114-6177-52" ri="1" pn="0000003" fn="Sven" sn="Fischer" em="esinef@web.de" />
+  <USER login="carsten" pw="-607-104-45-633320-75-6925-14529-98-47-127" ri="1" pn="0000001" fn="Carsten" sn="Lüdecke" em="Carsten.Luedecke@freenet.de" />
+  <USER login="Nobody" pw="86-4-671223175-1398-38110-29-10512480-41-85" ri="1" pn="22355" fn="Nobody" sn="Niemand" em="carsten.luedecke@freenet.de" />
+  <USER login="sille_admin" pw="12224-128811476-79-743845-1097-79-103-115-48" ri="4" pn="4711" fn="Sebastian" sn="Kohl" em="BlueCobold@gmx.de" />
+  <USER login="peter" pw="35-187051110-63-6-70-111388-34-184-2755" ri="1" pn="0000000" fn="Peter" sn="Matjeschk" em="Onkel_peterle@gmx.de" />
+  <USER login="micha" pw="-30-701-6289-41-106-6975-10149374-40-51-78" ri="1" pn="0-8-15" fn="Michael" sn="Thiele" em="michael.thiele-ldz@web.de" />
+  <USER login="maik" pw="108-84-126-20-9265893-572911211346-110-22" ri="1" pn="0000004" fn="Maik" sn="Müller" em="mai03iph@studserv.uni-leipzig.de" />
+  <USER login="dex" pw="-52-12-32-78-1193124-74120-23-12-12813-1674-85" ri="1" pn="8472" fn="Daniel" sn="Exner" em="mai03bsw@studserv.uni-leipzig.de" />
+  <USER login="sille" pw="-27-1062711-8654-1012886861-374-404460" ri="1" pn="( . )( . )" fn="Sebastian" sn="Kohl" em="BlueCobold@gmx.de" />
+  <USER login="admin" pw="-11773-76-44-71-71126546411155-10-45-320-79" ri="7" pn="007" fn="Administrator" sn="ADMINISTRATOR" em="BlueCobold@gmx.de" />
+  <USER login="toxi" pw="63-28-110-45-3416-812475-6644-12157012-127" ri="1" pn="123456" fn="Toxi" sn="Toxi" em="mai03dor@studserv.uni-leipzig.de" />
+  <USER login="riechert" pw="34124-182463-1010-9847-127-14-851-984027" ri="2" pn="31" fn="Thomas" sn="Riechert" em="riechert@informatik.uni-leipzig.de" />
+  <USER login="zimmermann" pw="-27572982-16-1488-710140-80910194-24-52" ri="1" pn="8973230" fn="Daniel" sn="Zimmermann" em="mai01ebz@studserv.uni-leipzig.de" />
+</USERS>
+

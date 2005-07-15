@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventTypes>
+  <eventType name="Universitäten" id="0" />
+  <eventType name="Fakultäten" id="1" />
+  <eventType name="Abteilungen" id="2" />
+  <eventType name="Vorlesungen" id="3" />
+  <eventType name="Übungen" id="4" />
+  <eventType name="Praktika" id="5" />
+  <eventType name="Klausuren" id="6" />
+  <eventType name="Prüfungen" id="7" />
+  <eventType name="Analytisches Schach" id="9" />
+</eventTypes>
+

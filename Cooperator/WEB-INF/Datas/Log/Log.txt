@@ -1,0 +1,175 @@
+23.06.2005 21:24:05  -  User "sille_admin" logged in with sess-id 026CB5DF18DB71E7D1F6A90DA828C2E6
+24.06.2005 14:53:06  -  Session killed: sille_admin
+24.06.2005 14:53:06  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+24.06.2005 14:53:16  -  User "sille_admin" logged in with sess-id 73F821CF9A8BCA271C0AB6CE3B87CE29
+24.06.2005 14:54:19  -  User "sille_admin" logged in with sess-id F1F6817C8E5ED8710FE3FBDF0FD5A16A
+24.06.2005 14:55:45  -  Session killed: sille_admin
+24.06.2005 14:55:51  -  User "sille" logged in with sess-id 7D864A5DA418DFD8C6334D11D937B6A0
+24.06.2005 15:35:46  -  Session killed: sille
+24.06.2005 15:35:46  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+24.06.2005 15:36:21  -  User "sille_admin" logged in with sess-id EC10B7CA6930A4EDEC69EA39E109F657
+24.06.2005 15:36:37  -  User "sille_admin" logged in with sess-id BF47D061A31F12B0DA4283795359C69B
+26.06.2005 18:33:38  -  User "sille_admin" logged in with sess-id FE2EFBB647BE4D7D702C4197F9C87632
+26.06.2005 19:57:04  -  User "sille_admin" logged in with sess-id 5DE0B03A662A3DD77CC390295AF7A964
+26.06.2005 20:03:07  -  Session killed: sille_admin
+26.06.2005 20:03:07  -  User "sille" logged in with sess-id BE81DE54105854211502A79A74D1EAA3
+26.06.2005 20:04:03  -  Session killed: sille
+26.06.2005 20:04:11  -  User "sille_admin" logged in with sess-id CC18CB41657D3A38DC579099B1080582
+26.06.2005 20:04:21  -  Session killed: sille_admin
+26.06.2005 20:04:21  -  User "mirko" logged in with sess-id 93D612321FC3E351E1A932D79390ED06
+26.06.2005 20:05:32  -  Session killed: mirko
+26.06.2005 20:05:38  -  User "sille_admin" logged in with sess-id 7CA4A5087CFC667491D8A6660D8B903C
+26.06.2005 20:05:44  -  Session killed: sille_admin
+26.06.2005 20:05:44  -  User "admin" logged in with sess-id DF566E8471A4ADADAB38FC47A40B2EA1
+26.06.2005 20:06:33  -  Session killed: admin
+26.06.2005 20:06:33  -  User "f√§hnrich" logged in with sess-id CE4A1CDA4A0FB1838F547C28BA819CEE
+26.06.2005 20:09:09  -  User "sille_admin" logged in with sess-id 8D4409EBEFF7D108A1CFCC54EBE8CE92
+26.06.2005 20:09:16  -  Session killed: sille_admin
+26.06.2005 20:09:16  -  User "admin" logged in with sess-id 3E58D6939D7590A8336E4C6BB0E64A85
+26.06.2005 20:09:21  -  Session killed: admin
+26.06.2005 20:09:21  -  User "f√§hnrich" logged in with sess-id 62D84263C53D634E8E93FBECE080E361
+26.06.2005 20:10:01  -  User "riechert" logged in with sess-id 7D3709AC1D8D251C8F945C3AB6C479F0
+26.06.2005 20:10:16  -  Session killed: riechert
+26.06.2005 20:10:33  -  User "sille_admin" logged in with sess-id 56158234D9AE7B7FB4AE7FE2F574A8DB
+26.06.2005 20:12:00  -  User "sille_admin" logged in with sess-id 3B39B62E5705BFF8DFF678B9B6F216C8
+26.06.2005 20:12:36  -  Session killed: sille_admin
+26.06.2005 20:12:36  -  User "faehnrich" logged in with sess-id 8BE16BC6E0C29B272BF7C5B69DD335A8
+26.06.2005 20:13:20  -  Session killed: faehnrich
+26.06.2005 20:13:26  -  User "sille_admin" logged in with sess-id 9A18C4EED254BF891434398913C42B15
+27.06.2005 13:50:09  -  User "admin" logged in with sess-id 65EF81F9A4ABF602ACD0B1B23D5660BC
+27.06.2005 13:51:43  -  Session killed: admin
+27.06.2005 15:41:07  -  User "Tester" logged in with sess-id 0DF39F6BBF64BB9DCCA7EC78C38E0FEF
+27.06.2005 19:17:13  -  Session killed: Tester
+27.06.2005 19:17:13  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+27.06.2005 20:22:16  -  User "Tester" logged in with sess-id 811BFB6B9ABD6C54EE76120AE987B5E5
+27.06.2005 22:43:35  -  Session killed: Tester
+27.06.2005 22:43:55  -  User "Tester" logged in with sess-id 8DE3836A0089CE56EDFBDE41A2B6C1B1
+28.06.2005 08:42:37  -  Session killed: Tester
+28.06.2005 08:42:37  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+28.06.2005 08:42:53  -  User "maik" logged in with sess-id A0D4EB3E2BB25E32CAB005E56C7CBCC0
+28.06.2005 08:51:42  -  Session killed: maik
+28.06.2005 09:38:31  -  User "Tester" logged in with sess-id 0A7C51E618132E5F21D59D598947AE1B
+28.06.2005 10:08:24  -  Session killed: Tester
+28.06.2005 10:08:24  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+28.06.2005 10:16:06  -  User "Tester" logged in with sess-id 4FCDF74985DDE745D0F2C422E76EE471
+28.06.2005 13:31:43  -  Session killed: Tester
+28.06.2005 13:31:43  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+28.06.2005 13:31:50  -  User "admin" logged in with sess-id 2767A146DD9D2DC680F7F370F6E9E935
+28.06.2005 13:57:56  -  Session killed: admin
+28.06.2005 13:58:06  -  User "admin" logged in with sess-id 5FCC9FF24FAC9B0F53EEBFD6AE898BED
+28.06.2005 13:58:17  -  Session killed: admin
+28.06.2005 14:57:51  -  User "Tester" logged in with sess-id CC2FCC92ED019ADEAC8E23EDE95CDC5D
+28.06.2005 14:59:31  -  Session killed: Tester
+28.06.2005 16:42:36  -  User "sille" logged in with sess-id A6F815A16E89D9D9D933B37F0AC80792
+28.06.2005 16:43:55  -  Session killed: sille
+28.06.2005 16:44:02  -  User "sille_admin" logged in with sess-id 85F4CF820EBFB47502B26D2C57EE875E
+28.06.2005 16:44:20  -  Session killed: sille_admin
+28.06.2005 16:44:20  -  User "dex" logged in with sess-id 61D0BEA4830DFF3079AA73F86B35FBC2
+28.06.2005 16:44:25  -  Session killed: dex
+28.06.2005 16:44:31  -  User "sille_admin" logged in with sess-id BFC5A49C7BB575576F0C768CFB31012A
+28.06.2005 16:50:49  -  User "mirko" logged in with sess-id B9364B78CD2507B730C76EC247060AAD
+30.06.2005 10:36:05  -  Session killed: sille_admin
+30.06.2005 10:36:05  -  User "Tester" logged in with sess-id 98E15F8EA3E5C58BB8EC62E0CE968010
+30.06.2005 10:36:05  -  Session killed: mirko
+30.06.2005 17:30:09  -  Session killed: Tester
+30.06.2005 17:30:09  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+30.06.2005 17:30:17  -  User "admin" logged in with sess-id C8595952A300ED8F582F8ED7865631DF
+30.06.2005 17:31:09  -  Session killed: admin
+30.06.2005 21:26:13  -  User "Tester" logged in with sess-id CE382DC0F9F03C3600F00A94BAD3C0D6
+30.06.2005 21:33:58  -  Session killed: Tester
+01.07.2005 12:19:23  -  User "admin" logged in with sess-id 97DB73EE89FFC47D4AA272710862993A
+01.07.2005 12:19:39  -  Session killed: admin
+01.07.2005 15:25:56  -  User "Tester" logged in with sess-id B4E143CBAF8FE3F4EFC45B1EE842FE3D
+01.07.2005 22:57:20  -  Session killed: Tester
+01.07.2005 22:57:20  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+01.07.2005 22:57:56  -  User "toxi" logged in with sess-id 4B25E95EA557C9B9711D29A4AD168E65
+01.07.2005 22:59:23  -  Session killed: toxi
+02.07.2005 18:29:51  -  User "maik" logged in with sess-id C76E50157957C013FEEE5CBE69F421E7
+02.07.2005 18:30:42  -  Session killed: maik
+02.07.2005 18:31:07  -  User "admin" logged in with sess-id D0BF4B4FD86BE54C308B18EC232D239C
+02.07.2005 18:31:37  -  Session killed: admin
+02.07.2005 21:24:32  -  User "sille_admin" logged in with sess-id 4A3A9E0EC4F0CD68B0C03D8C562919AE
+02.07.2005 21:47:07  -  Session killed: sille_admin
+02.07.2005 21:47:38  -  User "sille_admin" logged in with sess-id 64A08878EA00D99B04E3BBFD1B9D1E6A
+03.07.2005 21:11:13  -  Session killed: sille_admin
+03.07.2005 21:11:13  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+03.07.2005 21:11:22  -  User "sille_admin" logged in with sess-id 4E65A37EC676B9B185D43534C6A8C8CF
+03.07.2005 21:11:58  -  Event "wurst-machen" (#14) by "Sebastian Kohl" (sille_admin)
+03.07.2005 21:12:14  -  Event wurst-machen (#14) was removed by Sebastian Kohl (sille_admin)
+04.07.2005 13:41:51  -  Session killed: sille_admin
+04.07.2005 13:41:52  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+04.07.2005 13:42:07  -  User "admin" logged in with sess-id BDEA804649D6066098BBC04307406353
+05.07.2005 13:37:18  -  User "admin" logged in with sess-id D5E524A1F3AB920E924247B2FA6F9111
+07.07.2005 11:00:55  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+07.07.2005 11:01:02  -  User "admin" logged in with sess-id 0F5C438077B4EB73951BA2C3A6D29215
+07.07.2005 11:01:08  -  Session killed: admin
+08.07.2005 11:51:00  -  User "sille_admin" logged in with sess-id FC17AEB31DFDBCCB456D20FF179390D3
+08.07.2005 11:53:12  -  Session killed: sille_admin
+08.07.2005 12:46:29  -  User "sille_admin" logged in with sess-id EC23CDD4795481BFEC296A767251E209
+08.07.2005 12:48:19  -  Session killed: sille_admin
+08.07.2005 13:42:53  -  User "Tester" logged in with sess-id 2A4811E3BD72348E14738E33E55217AC
+11.07.2005 15:29:11  -  Session killed: Tester
+11.07.2005 15:29:11  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+11.07.2005 15:29:36  -  User "Tester" logged in with sess-id 5493E68F0DD216F4CFCA4A1081856CA0
+11.07.2005 15:30:23  -  User Hans Wurst (Tester) subscribed to event "Java Programmier-Praktikum - SS 2005" (#10)
+11.07.2005 15:30:25  -  User Hans Wurst (Tester) unsubscribed from event "Java Programmier-Praktikum - SS 2005" (#10)
+11.07.2005 15:30:27  -  User Hans Wurst (Tester) subscribed to event "Java Programmier-Praktikum - SS 2005" (#10)
+11.07.2005 15:30:53  -  Session killed: Tester
+11.07.2005 15:31:22  -  User "admin" logged in with sess-id 479ABF85C9222BB560575D654E1C9609
+11.07.2005 15:34:04  -  Session killed: admin
+11.07.2005 15:34:32  -  User "admin" logged in with sess-id 8F7C27040460806B8EE82FFBFD75E193
+11.07.2005 15:35:09  -  Session killed: admin
+11.07.2005 15:38:21  -  User "riechert" logged in with sess-id B3C647CD1B663A377B35B00DA558AED7
+11.07.2005 15:38:40  -  Session killed: riechert
+11.07.2005 15:38:45  -  User "riechert" logged in with sess-id 8B28C56CC071385740953A1A83AE25AA
+11.07.2005 15:39:20  -  Session killed: riechert
+11.07.2005 15:39:25  -  User "riechert" logged in with sess-id F25DD87166A99F1D13CCA80479F72FFF
+11.07.2005 15:39:53  -  User "sille_admin" logged in with sess-id 415ABF3AC15BD75AD947D5FB4B5AC681
+11.07.2005 15:40:24  -  Event "Betriebliche Informationssysteme" (#14) by "Thomas Riechert" (riechert)
+11.07.2005 16:04:24  -  Session killed: riechert
+11.07.2005 16:04:45  -  User "riechert" logged in with sess-id C2CC2A3F6D827CA229AB0D4B4467C8E5
+11.07.2005 16:06:12  -  Event "Softwaretechnik" (#15) by "Thomas Riechert" (riechert)
+11.07.2005 16:08:55  -  Event "Softwaretechnik" (#16) by "Thomas Riechert" (riechert)
+11.07.2005 16:20:12  -  Session killed: sille_admin
+11.07.2005 16:21:44  -  Event "Klausur Softwartechnik" (#17) by "Thomas Riechert" (riechert)
+11.07.2005 16:28:04  -  Session killed: riechert
+11.07.2005 16:28:11  -  User "Tester" logged in with sess-id B455B55B0E2F74712779AED8689C1137
+11.07.2005 16:28:55  -  Session killed: Tester
+11.07.2005 16:28:59  -  User "riechert" logged in with sess-id 3B04694E9110A65FA662346A8D0293AC
+11.07.2005 16:29:23  -  Session killed: riechert
+11.07.2005 16:29:28  -  User "Tester" logged in with sess-id 3FFACF1B1E33B46B27224AF7C62BC33F
+11.07.2005 16:29:33  -  User Hans Wurst (Tester) subscribed to event "‹bung Softwaretechnik" (#16)
+11.07.2005 16:29:36  -  User Hans Wurst (Tester) unsubscribed from event "‹bung Softwaretechnik" (#16)
+11.07.2005 16:29:37  -  User Hans Wurst (Tester) subscribed to event "‹bung Softwaretechnik" (#16)
+11.07.2005 16:30:01  -  Session killed: Tester
+11.07.2005 16:30:06  -  User "riechert" logged in with sess-id C42896141D0E19F34429BCEB25C62E1E
+11.07.2005 16:33:38  -  Session killed: riechert
+11.07.2005 16:35:36  -  User "zimmermann" logged in with sess-id 653402194C48121B57B952147F10DA6F
+11.07.2005 16:35:45  -  User Daniel Zimmermann (zimmermann) subscribed to event "‹bung Softwaretechnik" (#16)
+11.07.2005 16:39:39  -  User "sille_admin" logged in with sess-id 820FA46360C2A1ABBEDCB712D8D848F3
+11.07.2005 16:40:10  -  Session killed: sille_admin
+11.07.2005 16:40:14  -  User "sille" logged in with sess-id E184CBBCC737F7407A766188A4A78BEC
+11.07.2005 16:40:20  -  User Sebastian Kohl (sille) subscribed to event "‹bung Softwaretechnik" (#16)
+11.07.2005 16:40:32  -  User Sebastian Kohl (sille) unsubscribed from event "‹bung Softwaretechnik" (#16)
+11.07.2005 16:40:56  -  Session killed: sille
+11.07.2005 16:41:04  -  User "sille_admin" logged in with sess-id 3E7E78A3D14CD4CF5F4FF9183109944A
+11.07.2005 16:42:34  -  Event Zockung extrem (#11) was removed by Sebastian Kohl (sille_admin)
+11.07.2005 16:42:48  -  Event Fehlerbehebung (#13) was removed by Sebastian Kohl (sille_admin)
+12.07.2005 10:35:29  -  Session killed: zimmermann
+12.07.2005 11:33:30  -  Session killed: sille_admin
+12.07.2005 11:33:30  -  Can't login because of a general Exception: java.util.ConcurrentModificationException
+12.07.2005 11:34:22  -  User "sven" logged in with sess-id 552BF295A21AF30E1F0CFBC717767523
+12.07.2005 11:40:13  -  Session killed: sven
+12.07.2005 11:41:04  -  User "Tester" logged in with sess-id D88AF78C67C6E8D43C51E38C5A54096A
+12.07.2005 11:42:28  -  Session killed: Tester
+13.07.2005 10:45:07  -  User "sille_admin" logged in with sess-id 25A43BCFB940F671D054966734240104
+13.07.2005 10:46:41  -  Session killed: sille_admin
+13.07.2005 10:46:41  -  User "zimmermann" logged in with sess-id AB3E9D6BEA1C9F20D7C25E016D8D867B
+13.07.2005 10:59:41  -  User "sille_admin" logged in with sess-id 8285563E84C6C529282AD0BE071DB74A
+13.07.2005 11:21:00  -  User "sille_admin" logged in with sess-id 80CD13DF3669A3C0CBD67F048DA20D0A
+13.07.2005 13:40:22  -  User "der" logged in with sess-id C80AAAE60BC399B01E4A0CFA784BCCCF
+13.07.2005 13:40:54  -  Session killed: der
+13.07.2005 13:41:01  -  User "sille" logged in with sess-id 54C173185CB3E2266014803DDA0FC6BA
+13.07.2005 13:42:37  -  Session killed: sille
+13.07.2005 13:42:47  -  User "sille_admin" logged in with sess-id 41CDFC6B2656EC9732F18E6D30F051BC
+13.07.2005 13:46:51  -  Session killed: sille_admin

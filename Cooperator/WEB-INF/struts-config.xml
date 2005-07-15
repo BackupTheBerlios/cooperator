@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+
+	<!-- ========== Data Source Configuration =============================== -->
+    <data-sources/>
+
+	<!-- ========== Form Bean Definitions ================================== -->
+	<form-beans>
+		<form-bean name="HeaderFormular"				type="de.tr1.cooperator.model.web.HeaderForm" />
+		<form-bean name="LoginFormular"					type="de.tr1.cooperator.model.web.LoginForm" />
+		<form-bean name="LogoutFormular"				type="de.tr1.cooperator.model.web.LogoutForm" />
+		<form-bean name="ViewEventsFormular"			type="de.tr1.cooperator.model.web.ViewEventsForm" />
+		<form-bean name="ViewUsersFormular"				type="de.tr1.cooperator.model.web.ViewUsersForm" />
+		<form-bean name="EditEventFormular"				type="de.tr1.cooperator.model.web.EditEventForm" />
+		<form-bean name="ProfileFormular"				type="de.tr1.cooperator.model.web.ProfileForm" />
+		<form-bean name="EditGlobalSettingsFormular"	type="de.tr1.cooperator.model.web.EditGlobalsForm" />
+		<form-bean name="AccessableFormular"			type="de.tr1.cooperator.model.web.Accessable" />
+		<form-bean name="EventInfoFormular"				type="de.tr1.cooperator.model.web.EventInfoForm" />
+		<form-bean name="ViewSubscriptionsFormular"		type="de.tr1.cooperator.model.web.ViewSubscriptionsForm" />
+		<form-bean name="DeleteEventFormular"			type="de.tr1.cooperator.model.web.DeleteEventForm" />
+		<form-bean name="DeleteUserFormular"			type="de.tr1.cooperator.model.web.DeleteUserForm" />
+		<form-bean name="ForgotPassFormular"			type="de.tr1.cooperator.model.web.ForgotPassForm" />
+		<form-bean name="RegisterFormular"				type="de.tr1.cooperator.model.web.RegisterForm" />
+		<form-bean name="CreateSubscriberListFormular"	type="de.tr1.cooperator.model.web.CreateSubscriberListForm" />
+	</form-beans>
+
+	<!-- ========== Global Exception Definitions ============================== -->
+	<global-exceptions/>
+
+	<!-- ========== Global Forward Definitions =============================== -->
+	<global-forwards>
+		<forward name="GeneralFailure" path="/error.do" redirect="true" />
+		<forward name="welcome" path="/default.do" redirect="true" />
+	</global-forwards>
+
+	<!-- ========== Action Mapping Definitions =============================== -->
+    <action-mappings>
+
+		<action path="/default"
+			forward="page.login"
+			unknown="true" />
+		<action path="/error"
+			forward="page.login"
+			unknown="true" />
+
+		<!-- here are the actions for the menu so tiles can be used -->
+		<action path="/login"
+			forward="page.login"
+			unknown="true" />
+		<action path="/logout"
+			forward="page.logout"
+			unknown="true" />
+		<action path="/profile"
+			forward="page.profile"
+			unknown="true" />
+		<action path="/editglobalsettings"
+			forward="page.editGlobalSettings"
+			unknown="true" />
+		<action path="/viewevents"
+			forward="page.viewEvents"
+			unknown="true" />
+		<action path="/viewusers"
+			forward="page.viewUsers"
+			unknown="true" />
+		<action path="/eventinfo"
+			forward="page.eventInfo"
+			unknown="true" />
+		<action path="/editevent"
+			forward="page.editEvent"
+			unknown="true" />
+		<action path="/viewsubscriptions"
+			forward="page.viewSubscriptions"
+			unknown="true" />
+		<action path="/deleteevent"
+			forward="page.deleteEvent"
+			unknown="true" />
+		<action path="/deleteuser"
+			forward="page.deleteUser"
+			unknown="true" />
+		<action path="/impressum"
+			forward="page.impressum"
+			unknown="true" />
+		<action path="/register"
+			forward="page.register"
+			unknown="true" />
+		<action path="/forgotPass"
+			forward="page.forgotPass"
+			unknown="true" />
+
+		<action path="/createsubscriberlist"
+			forward="page.createSubscriberList"
+			unknown="true" />
+
+		<action path="/HeaderAction"
+			name="HeaderFormular"
+			scope="request"
+			validate="false" />
+
+		<action path="/ImageAction"
+			type="de.tr1.cooperator.manager.web.ImageAction"
+			name="AccessableFormular"
+			scope="request"
+			validate="false" />
+
+		<!-- If u take use of DispatchAction u'll need 'parameter="do"' too -->
+	  	<action path="/LoginAction"
+	  		type="de.tr1.cooperator.manager.web.LoginAction"
+	  		name="LoginFormular"
+	  		input="page.login"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="LoginSuccesful" path="page.viewEvents" />
+	  			<forward name="LoginUnsuccesful" path="page.login" />
+	  	</action>
+
+	  	<action path="/LogoutAction"
+	  		type="de.tr1.cooperator.manager.web.LogoutAction"
+	  		name="LogoutFormular"
+	  		input="page.logout"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="LogoutSuccesful" path="page.loggedOut" />
+	  	</action>
+
+	  	<action path="/ViewEventsAction"
+	  		type="de.tr1.cooperator.manager.web.ViewEventsAction"
+	  		name="ViewEventsFormular"
+	  		input="page.viewEvents"
+	  		parameter="do"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="SelectEventType" path="page.viewEvents" />
+	  			<forward name="CreateEvent" path="page.editEvent" />
+	  	</action>
+
+	  	<action path="/ViewUsersAction"
+	  		type="de.tr1.cooperator.manager.web.ViewUsersAction"
+	  		name="ViewUsersFormular"
+	  		input="page.viewUsers"
+	  		parameter="do"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="RefreshSite" path="page.viewUsers" />
+	  			<forward name="CreateUser" path="page.register" />
+	  			<forward name="DeleteUser" path="page.deleteUser" />
+	  			<forward name="ShowUser" path="page.profile" />
+	  			<forward name="GoToViewEvents" path="page.viewEvents" />
+	  	</action>
+
+	  	<action path="/EditEventAction"
+	  		type="de.tr1.cooperator.manager.web.EditEventAction"
+	  		name="EditEventFormular"
+	  		input="page.editEvent"
+	  		parameter="do"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="TimeEntryUpdateSuccesful" path="page.editEvent" />
+	  			<forward name="AddEventSuccesful" path="page.eventInfo" />
+	  			<forward name="UpdateEventSuccesful" path="page.eventInfo" />
+
+	  			<!-- //2do: if something went wrong.... -->
+	  			<forward name="AddEventUnsuccesful" path="page." />
+	  			<forward name="UpdateVentSuccesful" path="page." />
+	  	</action>
+
+	  	<action path="/ProfileAction"
+	  		type="de.tr1.cooperator.manager.web.ProfileAction"
+	  		name="ProfileFormular"
+	  		input="page.profile"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="ProfileSuccesful" path="page.profile" />
+	  			<forward name="ProfileUnsuccesful" path="page.profile" />
+	  	</action>
+
+	  	<action path="/EditGlobalSettingsAction"
+	  		type="de.tr1.cooperator.manager.web.EditGlobalSettingsAction"
+	  		name="EditGlobalSettingsFormular"
+	  		input="page.editGlobalSettings"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="UpdateSuccessfull" path="page.editGlobalSettings" />
+	  			<forward name="UpdateFailed" path="page.editGlobalSettings" />
+	  	</action>
+
+	  	<action path="/EventInfoAction"
+	  		type="de.tr1.cooperator.manager.web.EventInfoAction"
+	  		name="EventInfoFormular"
+	  		input="page.eventInfo"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="EventInfoSuccessfull" path="page.eventInfo" />
+	  			<forward name="EventInfoFailed" path="page.eventInfo" />
+	  	</action>
+
+	  	<action path="/DeleteEventAction"
+	  		type="de.tr1.cooperator.manager.web.DeleteEventAction"
+	  		name="DeleteEventFormular"
+	  		input="page.deleteEvent"
+	  		scope="request"
+	  		validate="false">
+	  			<forward name="DeleteEventSuccessfull" path="page.deleteEvent" />
+	  			<forward name="DeleteEventFailed" path="page.deleteEvent" />
+	  	</action>
+
+	  	<action path="/DeleteUserAction"
+	  		type="de.tr1.cooperator.manager.web.DeleteUserAction"
+	  		name="DeleteUserFormular"
+	  		input="page.deleteUser"
+	  		scope="request"
+	  		validate="false">
+	  			<forward name="DeletedOrNot" path="page.deleteUser" />
+	  			<forward name="Abort" path="page.viewUsers" />
+	  	</action>
+
+	  	<action path="/ViewSubscriptionsAction"
+	  		type="de.tr1.cooperator.manager.web.ViewSubscriptionsAction"
+	  		name="ViewSubscriptionsFormular"
+	  		input="page.viewSubscriptions"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="ViewSubscriptionsSuccessfull" path="page.viewSubscriptions" />
+	  			<forward name="ViewSubscriptionsFailed" path="page.viewSubscriptions" />
+	  			<forward name="ViewResultFailed" path="page.viewSubscriptions" />
+	  	</action>
+
+	  	<action path="/RegisterAction"
+	  		type="de.tr1.cooperator.manager.web.RegisterAction"
+	  		name="RegisterFormular"
+	  		input="page.register"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="RegisterSuccesful" path="page.login" />
+	  			<forward name="RegisterUnsuccesful" path="page.register" />
+	  			<forward name="NewUserSuccesful" path="page.viewUsers" />
+	  	</action>
+
+	  	<action path="/ForgotPassAction"
+	  		type="de.tr1.cooperator.manager.web.ForgotPassAction"
+	  		name="ForgotPassFormular"
+	  		input="page.forgotPass"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="ForgotPassSuccesful" path="page.forgotPass" />
+	  			<forward name="ForgotPassUnsuccesful" path="page.forgotPass" />
+	  	</action>
+
+	  	<action path="/CreateSubscriberListAction"
+	  		type="de.tr1.cooperator.manager.web.CreateSubscriberListAction"
+	  		name="CreateSubscriberListFormular"
+	  		input="page.createSubscriberList"
+	  		scope="request"
+	  		validate="true">
+	  			<forward name="LogoutSuccesful" path="page.loggedOut" />
+	  	</action>
+
+	</action-mappings>
+
+	<!-- ========== Controller Configuration ================================ -->
+	<controller processorClass="org.apache.struts.tiles.TilesRequestProcessor" bufferSize="4096" debug="0" />
+
+	<!-- ========== Message Resources Definitions ============================ -->
+	<message-resources parameter="ApplicationResources" null="false"/>
+
+	<!-- ========== Plug Ins Configuration ================================= -->
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+		<set-property property="moduleAware" value="true" />
+		<set-property property="definitions-parser-validate" value="true" />
+	</plug-in>
+
+</struts-config>

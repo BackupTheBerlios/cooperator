@@ -1,0 +1,83 @@
+p,ul,ol,li,div,td,th,address,blockquote,nobr,i,b
+     { font-size: 12px; font-family: Arial, Helvetica, Geneva, Verdana, sans-serif }
+
+legend { font-family: "Times New Roman", Times, serif; font-size: 15px; color: #0046D5; font-weight: normal; }
+fieldset { border: 1px #8080B0 dotted; border-style: dotted; -moz-border-radius: 15px; }
+
+img { border: 0px; }
+
+.listing { padding: 2px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+.listinghead {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px}
+
+.fsviewdoc
+{
+	background-color: #F0F0FF
+	width: 100%;
+}
+.fslogin
+{
+	background-color: #F0F0FF;
+	width: 330px;
+}
+.fsedit
+{
+	background-color: #F0F0FF;
+	width: 100%;
+}
+.mainframe
+{
+	background-color: #F8F8FF;
+	width: 98%;
+}
+.fsall
+{
+	width: 100%;
+}
+input
+{
+	padding: 2px;
+	padding-left: 5px;
+	border: 1px #8080B0 dotted;
+}
+.input_200
+{
+	width:	200px;
+	border: 1px #8080B0 dotted;
+}
+.input_full
+{
+	width:	98%;
+	border: 1px #8080B0 dotted;
+}
+.ta_full
+{
+	width:	98%;
+	border: 1px #8080B0 dotted;
+	padding: 2px;
+}
+.ta_total
+{
+	width:	100%;
+	border: 1px #8080B0 dotted;
+	padding: 2px;
+}
+.ta_full
+{
+	width:	98%;
+	border: 1px #8080B0 dotted;
+	padding: 2px;
+}
+.button_100
+{
+	width:	100px;
+	border:	1px #8080B0 dotted;
+}
+.button_150
+{
+	width:	150px;
+	border:	1px #8080B0 dotted;
+}
+.select_version
+{
+	border:	1px #8080B0 dotted;
+}
